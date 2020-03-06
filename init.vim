@@ -29,9 +29,10 @@ set shiftwidth=2
 let mapleader="\<space>"
 
 nnoremap <leader>; A;<esc>
-nnoremap <leader>sv :source $MYVIMRC<cr>
 nnoremap <c-p> :Files<cr>
 nnoremap <c-f> :Ag<space>
 
+let g:python3_host_prog = '/usr/bin/python3'
+
+" If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
-let g:UltiSnipsSnippetsDir = '~/.config/nvim/UltiSnips'
